@@ -2,6 +2,7 @@ module.exports = {
   siteName: 'Alex Geenen',
   siteDescription: "Tutorials and Reading Notes",
   siteUrl: 'https://geenen124.github.io',
+  pathPrefix: "/geenen124.github.io",
   titleTemplate: `%s | Test`,
   icon: 'src/favicon.png',
 
