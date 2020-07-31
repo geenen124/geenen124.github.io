@@ -53,14 +53,14 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Bleda, a Gridsome blog starter',
-          feed_url: 'https://gridsome-starter-bleda.netlify.com/feed.xml',
-          site_url: 'https://gridsome-starter-bleda.netlify.com',
+          title: 'Shift Reducer - Alex Geenen',
+          feed_url: 'https://shiftreducer.com/feed.xml',
+          site_url: 'https://shiftreducer.com',
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.description,
-          url: 'https://gridsome-starter-bleda.netlify.com' + node.path,
+          url: 'https://shiftreducer.com' + node.path,
           author: node.author,
           date: node.date,
         }),
