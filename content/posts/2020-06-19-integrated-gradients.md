@@ -29,7 +29,7 @@ Given a function that maps from $R^{n}$ to $[0,1]$, an input $x \in R^{n}$ and a
 
 ### 3.1 Completeness Axiom
 
-An attriubtion method satisfies this axiom if all attributions add up to the differnce between the outputs for $x$ and the baseline $x'$ of the network. - Note - DeepLIFT and LRP also do this.
+An attribution method satisfies this axiom if all attributions add up to the differnce between the outputs for $x$ and the baseline $x'$ of the network. - Note - DeepLIFT and LRP also do this.
 
 ## 4. Uniqueness of Integrated Gradients
 
@@ -43,7 +43,7 @@ They then proceed to describe a few more axioms:
 If a function doesn't mathematically depend on a (input) variable then the attribution to this variable is zero.
 
 #### Linearity Axiom
-If two networsk are combined linearly ($a*g(x) + b*f(x)$) then the attributions of this linear combination will also weighed by $a$ and $b$.
+If two networks are combined linearly ($a*g(x) + b*f(x)$) then the attributions of this linear combination will also weighed by $a$ and $b$.
 
 
 Key takeaways:
