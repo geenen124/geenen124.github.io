@@ -2,7 +2,7 @@ module.exports = {
   siteName: 'Alex Geenen',
   siteDescription: "Tutorials and Reading Notes",
   siteUrl: 'https://shiftreducer.com',
-  titleTemplate: `%s | Test`,
+  titleTemplate: `Shift Reducer - %s`,
   icon: 'src/favicon.png',
 
   transformers: {
