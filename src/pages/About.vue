@@ -47,14 +47,14 @@ export default {
         { property: "og:title", content:'About' },
         { property: "og:description", content: this.ogDescription },
         { property: "og:url", content: `${this.config.siteUrl}/about/` },
-        { property: "og:image", content: this.ogImageUrl },
+        // { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: 'About' },
         { name: "twitter:description", content: this.ogDescription },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
-        { name: "twitter:image", content: this.ogImageUrl },
+        { name: "twitter:site", content: "@geenen124" },
+        { name: "twitter:creator", content: "@geenen124" },
+        // { name: "twitter:image", content: this.ogImageUrl },
       ],
     }
   },
