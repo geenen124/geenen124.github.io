@@ -3,7 +3,6 @@ module.exports = {
   siteDescription: "Tutorials and Reading Notes",
   siteUrl: 'https://shiftreducer.com',
   titleTemplate: `Shift Reducer - %s`,
-  icon: 'src/favicon.png',
 
   transformers: {
     remark: {
