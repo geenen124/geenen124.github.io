@@ -1,7 +1,7 @@
 module.exports = {
   siteName: 'Alex Geenen',
   siteDescription: "Tutorials and Reading Notes",
-  siteUrl: 'https://geenen124.github.io',
+  siteUrl: 'https://shiftreducer.com',
   titleTemplate: `%s | Test`,
   icon: 'src/favicon.png',
 
