@@ -46,14 +46,14 @@ export default {
         { property: "og:title", content: `Posts written by ${this.titleCase(this.$page.author.title)}` },
         { property: "og:description", content: `Browse posts written by ${this.titleCase(this.$page.author.title)}` },
         { property: "og:url", content: `${this.config.siteUrl}${this.$page.author.path}` },
-        { property: "og:image", content: this.ogImageUrl },
+        // { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: `Posts written by ${this.titleCase(this.$page.author.title)}` },
         { name: "twitter:description", content: `Browse posts written by ${this.titleCase(this.$page.author.title)}` },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
-        { name: "twitter:image", content: this.ogImageUrl },
+        { name: "twitter:site", content: "@geenen124" },
+        { name: "twitter:creator", content: "@geenen124" },
+        // { name: "twitter:image", content: this.ogImageUrl },
       ],
     }
   },
@@ -66,9 +66,6 @@ export default {
     config () {
       return config
     },
-    ogImageUrl () {
-      return `${this.config.siteUrl}/images/bleda-card.png`
-    }
   },
 }
 </script>

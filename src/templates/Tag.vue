@@ -47,14 +47,14 @@ export default {
         { property: "og:title", content: `Posts tagged "${this.titleCase(this.$page.tag.title)}"` },
         { property: "og:description", content: `Browse posts tagged "${this.titleCase(this.$page.tag.title)}"` },
         { property: "og:url", content: `${this.config.siteUrl}${this.$page.tag.path}` },
-        { property: "og:image", content: this.ogImageUrl },
+        // { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: `Posts tagged "${this.titleCase(this.$page.tag.title)}"` },
         { name: "twitter:description", content: `Browse posts tagged "${this.titleCase(this.$page.tag.title)}"` },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
-        { name: "twitter:image", content: this.ogImageUrl },
+        { name: "twitter:site", content: "@geenen124" },
+        { name: "twitter:creator", content: "@geenen124" },
+        // { name: "twitter:image", content: this.ogImageUrl },
       ],
     }
   },

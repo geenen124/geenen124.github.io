@@ -72,14 +72,14 @@ export default {
         { property: "og:description", content: this.description(this.$page.post) },
         { property: "og:url", content: this.postUrl },
         { property: "article:published_time", content: moment(this.$page.post.date).format('YYYY-MM-DD') },
-        { property: "og:image", content: this.ogImageUrl },
+        // { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: this.$page.post.title },
         { name: "twitter:description", content: this.description(this.$page.post) },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
-        { name: "twitter:image", content: this.ogImageUrl },
+        { name: "twitter:site", content: "@geenen124" },
+        { name: "twitter:creator", content: "@geenen124" },
+        // { name: "twitter:image", content: this.ogImageUrl },
       ],
     }
   },
@@ -128,9 +128,6 @@ export default {
 
       return postPath ? `${siteUrl}${postPath}` : `${siteUrl}/${slugify(this.$page.post.title)}/`
     },
-    ogImageUrl () {
-      return this.$page.post.cover || `${this.config.siteUrl}/images/bleda-card.png`
-    }
   },
 }
 </script>
