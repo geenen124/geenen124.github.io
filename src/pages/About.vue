@@ -45,13 +45,13 @@ export default {
 
         { property: "og:type", content: 'article' },
         { property: "og:title", content:'About' },
-        { property: "og:description", content: this.$static.metadata.siteDescription },
+        { property: "og:description", content: this.ogDescription },
         { property: "og:url", content: `${this.config.siteUrl}/about/` },
         // { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: 'About' },
-        { name: "twitter:description", content: this.$static.metadata.siteDescription },
+        { name: "twitter:description", content: this.ogDescription },
         { name: "twitter:site", content: "@geenen124" },
         { name: "twitter:creator", content: "@geenen124" },
         // { name: "twitter:image", content: this.ogImageUrl },
@@ -61,6 +61,9 @@ export default {
   computed: {
     config () {
       return config
+    },
+    ogDescription () {
+      return "ShiftReducer - About"
     },
   },
 }
