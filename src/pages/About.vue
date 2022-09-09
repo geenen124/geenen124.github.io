@@ -10,7 +10,7 @@
       </nav>
       <article class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16 border-b border-gray-300 pb-10 mb-16">
         <div class="markdown text-lg leading-normal text-gray-700">
-          <p>This is Alex! I'm working in Machine Learning at <a href="https://geophy.com">Geophy</a>.</p>
+          <p>This is Alex! I'm working in Machine Learning at <a href="https://arangodb.com">ArangoDB</a>
           <hr>
           <p>
             I'm using this site to record my reading notes, and to work on producing interesting and practical tutorials on stuff I'm interested in.
